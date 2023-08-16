@@ -1,10 +1,9 @@
-.mainDiv{
+.inner {
     display: flex;
     align-items: flex-start;
-    width: auto;
-    height: auto;
 }
-.titleDiv{
+
+.titleDiv {
     display: flex;
     width: 720px;
     padding: 80px;
@@ -14,7 +13,8 @@
     gap: 16px;
     border-top: 1px solid var(--black, #121212);
 }
-.h1{
+
+.h1 {
     color: var(--black, #121212);
 
     /* Desktop & Tablet/H2 */
@@ -22,14 +22,17 @@
     font-size: 50px;
     font-style: normal;
     font-weight: 600;
-    line-height: 120%; /* 60px */
+    line-height: 120%;
+    /* 60px */
 }
-.rightColumn{
+
+.rightColumn {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
-.descDiv{
+
+.descDiv {
     display: flex;
     width: 720px;
     padding: 80px;
@@ -38,9 +41,10 @@
     gap: 16px;
     border-bottom: 1px solid var(--black, #121212);
     border-left: 1px solid var(--black, #121212);
-    
+
 }
-.h2{
+
+.h2 {
     align-self: stretch;
     color: var(--black, #121212);
 
@@ -49,9 +53,11 @@
     font-size: 38px;
     font-style: normal;
     font-weight: 500;
-    line-height: 120%; /* 45.6px */
+    line-height: 120%;
+    /* 45.6px */
 }
-.text{
+
+.text {
     align-self: stretch;
     color: var(--black-brightness-90, rgba(18, 18, 18, 0.90));
 
@@ -60,5 +66,6 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 140%; /* 22.4px */
+    line-height: 140%;
+    /* 22.4px */
 }

@@ -1,22 +1,26 @@
-.maniSection{
+.maniSection {
     display: flex;
     align-items: flex-start;
 }
-.topSection{
+
+.topSection {
     display: flex;
     align-items: flex-start;
 }
-.leftColumn{
+
+.leftColumn {
     display: flex;
-    width: 50%;
+    width: 720px;
     height: 720px;
     padding: 80px;
     flex-direction: column;
     align-items: flex-start;
+
     border-bottom: 1px solid var(--black, #121212);
     background: var(--white, #FFF);
 }
-.row1{
+
+.row1 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -24,28 +28,47 @@
     flex: 1 0 0;
     align-self: stretch;
 }
-.row1Heading{
+
+.row1Heading {
+    width: 560px;
+    height: 160px;
+}
+
+.row1HeadingText1 {
     width: 560px;
     color: var(--black, #121212);
+
     /* Desktop & Tablet/H1 */
     font-family: Gilroy;
     font-size: 67px;
     font-style: normal;
     font-weight: 600;
-    line-height: 120%; /* 80.4px */
-    height: 160px;
+    line-height: 120%;
+    /* 80.4px */
 }
-.row1Text{
+
+.row1HeadingText2 {
+    color: var(--black, #121212);
+    font-family: Gilroy;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    /* 48px */
+}
+
+.row1Text {
     align-self: stretch;
     color: var(--black-brightness-90, rgba(18, 18, 18, 0.90));
     font-family: Gilroy;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 140%; /* 25.2px */
-    height: auto;
+    line-height: 140%;
+    /* 25.2px */
 }
-.row2{
+
+.row2 {
     display: flex;
     padding-top: 24px;
     justify-content: flex-end;
@@ -54,42 +77,53 @@
     align-self: stretch;
     border-top: 1px solid var(--black, #121212);
 }
-.imgHero{
+
+.row2DecorCol {
+    display: flex;
+    padding-right: 0px;
+    align-items: flex-start;
+    flex: 1 0 0;
+    align-self: stretch;
+
+    border-right: 1px solid var(--black, #121212);
+}
+
+
+.imgHero {
     flex: 1 0 0;
     align-self: stretch;
     height: 100%;
     width: 100%;
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.15) 100%), lightgray 0px -60.706px / 100% 124.907% no-repeat;
 }
-.imgDescription{
-    display: flex;
-    padding-left: 0px;
-    align-items: flex-end;
-    flex: 1 0 0;
-    align-self: stretch;
-    width: 100%;
-    height: 100%;
-}
-.imgDescTxt{
+
+.imgDescTxt {
     flex: 1 0 0;
     color: var(--black-brightness-90, rgba(18, 18, 18, 0.90));
+
     /* Desktop & Tablet/Caption */
     font-family: Gilroy;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 120%; /* 16.8px */
-    margin-left: 24px;
+    line-height: 120%;
+    /* 16.8px */
+    margin-left: 14px;
 }
-.rightColumn{
 
+.rightColumn {
+    display: flex;
+    align-items: flex-start;
 }
-.contentCategory{
 
+.contentCategory {
+    display: flex;
+
+    align-items: flex-start;
 }
-.contentCard{
-}
-.content{
+
+
+.content {
     display: flex;
     width: 50%;
     height: 360px;
@@ -100,17 +134,20 @@
     border-bottom: 1px solid var(--black, #121212);
     border-left: 1px solid var(--black, #121212);
 }
-.aboutUS{
+
+.aboutUS {
     display: flex;
     align-items: flex-start;
     width: auto;
     height: auto;
 }
-.leftAbout{
+
+.leftAbout {
     width: 50%;
     height: 581px;
 }
-.divAboutTitle{
+
+.divAboutTitle {
     display: flex;
     width: 50%;
     padding: 80px;
@@ -120,7 +157,8 @@
     gap: 16px;
     border-top: 1px solid var(--black, #121212);
 }
-.textAbout{
+
+.textAbout {
     width: 576px;
     color: var(--black, #121212);
 
@@ -129,9 +167,11 @@
     font-size: 50px;
     font-style: normal;
     font-weight: 600;
-    line-height: 120%; /* 60px */
+    line-height: 120%;
+    /* 60px */
 }
-.rightAbout{
+
+.rightAbout {
     display: flex;
     width: 874px;
     padding: 110px;
@@ -141,13 +181,15 @@
     border-bottom: 1px solid var(--black, #121212);
     border-left: 1px solid var(--black, #121212);
 }
-.aboutTextArea{
+
+.aboutTextArea {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 24px;
 }
-.aboutHeader{
+
+.aboutHeader {
     width: 543.5px;
     color: var(--black, #121212);
 
@@ -156,9 +198,11 @@
     font-size: 38px;
     font-style: normal;
     font-weight: 500;
-    line-height: 120%; /* 45.6px */
+    line-height: 120%;
+    /* 45.6px */
 }
-.aboutContent{
+
+.aboutContent {
     width: 543.5px;
     color: var(--black-brightness-90, rgba(18, 18, 18, 0.90));
 
@@ -167,9 +211,11 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 140%; /* 22.4px */
+    line-height: 140%;
+    /* 22.4px */
 }
-.learnButton{
+
+.learnButton {
     display: flex;
     width: 175px;
     height: 56px;

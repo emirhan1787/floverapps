@@ -1,8 +1,6 @@
-.mainDiv{
+.contactUsMainDiv{
     display: flex;
     align-items: flex-start;
-    
-    
 }
 .leftColumn{
     display: flex;
