@@ -1,0 +1,181 @@
+.maniSection{
+    display: flex;
+    align-items: flex-start;
+}
+.topSection{
+    display: flex;
+    align-items: flex-start;
+}
+.leftColumn{
+    display: flex;
+    width: 50%;
+    height: 720px;
+    padding: 80px;
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: 1px solid var(--black, #121212);
+    background: var(--white, #FFF);
+}
+.row1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+.row1Heading{
+    width: 560px;
+    color: var(--black, #121212);
+    /* Desktop & Tablet/H1 */
+    font-family: Gilroy;
+    font-size: 67px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 80.4px */
+    height: 160px;
+}
+.row1Text{
+    align-self: stretch;
+    color: var(--black-brightness-90, rgba(18, 18, 18, 0.90));
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 25.2px */
+    height: auto;
+}
+.row2{
+    display: flex;
+    padding-top: 24px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-top: 1px solid var(--black, #121212);
+}
+.imgHero{
+    flex: 1 0 0;
+    align-self: stretch;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.15) 100%), lightgray 0px -60.706px / 100% 124.907% no-repeat;
+}
+.imgDescription{
+    display: flex;
+    padding-left: 0px;
+    align-items: flex-end;
+    flex: 1 0 0;
+    align-self: stretch;
+    width: 100%;
+    height: 100%;
+}
+.imgDescTxt{
+    flex: 1 0 0;
+    color: var(--black-brightness-90, rgba(18, 18, 18, 0.90));
+    /* Desktop & Tablet/Caption */
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 16.8px */
+    margin-left: 24px;
+}
+.rightColumn{
+
+}
+.contentCategory{
+
+}
+.contentCard{
+}
+.content{
+    display: flex;
+    width: 50%;
+    height: 360px;
+    padding: 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid var(--black, #121212);
+    border-left: 1px solid var(--black, #121212);
+}
+.aboutUS{
+    display: flex;
+    align-items: flex-start;
+    width: auto;
+    height: auto;
+}
+.leftAbout{
+    width: 50%;
+    height: 581px;
+}
+.divAboutTitle{
+    display: flex;
+    width: 50%;
+    padding: 80px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    border-top: 1px solid var(--black, #121212);
+}
+.textAbout{
+    width: 576px;
+    color: var(--black, #121212);
+
+    /* Desktop & Tablet/H2 */
+    font-family: Gilroy;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 60px */
+}
+.rightAbout{
+    display: flex;
+    width: 874px;
+    padding: 110px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 64px;
+    border-bottom: 1px solid var(--black, #121212);
+    border-left: 1px solid var(--black, #121212);
+}
+.aboutTextArea{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+.aboutHeader{
+    width: 543.5px;
+    color: var(--black, #121212);
+
+    /* Desktop & Tablet/H3 */
+    font-family: Gilroy;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 45.6px */
+}
+.aboutContent{
+    width: 543.5px;
+    color: var(--black-brightness-90, rgba(18, 18, 18, 0.90));
+
+    /* Desktop & Tablet/Body */
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+.learnButton{
+    display: flex;
+    width: 175px;
+    height: 56px;
+    padding: 16px 24px 14px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid var(--black, #121212);
+}

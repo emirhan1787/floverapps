@@ -1,0 +1,49 @@
+.navBar{
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    border-bottom: 1px solid var(--black, #121212);
+}
+.navLeft{
+    display: flex;
+    align-items: flex-start;
+}
+.navRight{
+    display: flex;
+    align-items: flex-end;
+}
+.navShop{
+    display: flex;
+    width: 180px;
+    padding: 32px 24px;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid var(--black, #121212);
+}
+.navContact{
+    display: flex;
+    width: 180px;
+    padding: 32px 24px;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid var(--black, #121212);
+}
+.navSignİn{
+    display: flex;
+    width: 180px;
+    padding: 32px 24px;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid var(--black, #121212);
+    border-left: 1px solid var(--black, #121212);
+}
+.navCart{
+    display: flex;
+    width: 180px;
+    padding: 32px 24px;
+    justify-content: center;
+    align-items: center;
+    
+}
