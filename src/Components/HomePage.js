@@ -41,34 +41,32 @@ export default function HomePage() {
                     </div>
                 </div>
             </div>
-
-            <div className='aboutUS'>
-                <div className='leftAbout'>
-                    <div className='divAboutTitle'>
-                        <span className='textAbout'>About us</span>
-                    </div>
-                </div>
-                <div className='rightAbout'>
-                    <div className='aboutTextArea'>
-                        <span className='aboutHeader'>
-                            Kyiv LuxeBouquets
-                        </span>
-                        <span className='aboutContent'>
-                            We are a modern local floral studio, which specializes in the design and delivery of unique bouquets. We have the best florists who carefully select each look, our studio cooperates directly with farms for growing different flowers, so we always have fresh flowers, which are collected by our florists in exquisite bouquets. We have a collection of fresh bouquets, collections of dried bouquets, house plants, as well as fragrant candles from luxury brands to create the perfect atmosphere. Make someone's day amazing by sending flowers, plants and gifts the same or next day. Ordering flowers online has never been easier.
-                        </span>
-                    </div>
-                    <button className='learnButton'>LEARN MORE</button>
-                </div>
-            </div>
-
-            <ChooseUs />
-            <div className='contactUs'>
-                <ContactUs />
-            </div>
-            <div className='ourService'>
-                <OurService />
-            </div>
-            <Footer/>
         </div>
-    )
+        <div className='aboutUS'>
+           <div className='leftAbout'>
+            <div className='divAboutTitle'><span className='textAbout'>About us</span></div>
+           </div>
+           <div className='rightAbout'>
+            <div className='aboutTextArea'>
+                <span className='aboutHeader'>
+                    Kyiv LuxeBouquets
+                </span>
+                <span className='aboutContent'>
+                    We are a modern local floral studio, which specializes in the design and delivery of unique bouquets. We have the best florists who carefully select each look, our studio cooperates directly with farms for growing different flowers, so we always have fresh flowers, which are collected by our florists in exquisite bouquets. We have a collection of fresh bouquets, collections of dried bouquets, house plants, as well as fragrant candles from luxury brands to create the perfect atmosphere. Make someone's day amazing by sending flowers, plants and gifts the same or next day. Ordering flowers online has never been easier.
+                </span>
+            </div>
+            <button className='learnButton'>LEARN MORE</button>
+           </div> 
+        </div>
+        <div className='chooseUS'>
+            <ChooseUs/>
+        </div>
+        <div className='contactUs'>
+            <ContactUs/>
+        </div>
+        <div className='ourService'>
+            <OurService/>
+        </div>
+    </div>
+  )
 }
