@@ -1,0 +1,308 @@
+.footerMainDiv{
+    display: flex;
+    width: 100%px;
+    min-width: 768px;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    border: 1px solid var(--black, #121212);
+}
+.footerReminder{
+    display: flex;
+    min-width: 320px;
+    min-height: 429px;
+    max-height: 450px;
+    padding: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0;
+    background: var(--white, #FFF);
+}
+.footerContactUs{
+    display: flex;
+    min-width: 320px;
+    min-height: 429px;
+    max-height: 450px;
+    padding: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0;
+    border-left: 1px solid var(--black, #121212);
+    background: var(--white, #FFF);
+}
+.footerContactUs>span{
+    align-self: stretch;
+    color: var(--gray, #808080);
+
+    /* Desktop & Tablet/H5 */
+    font-family: Gilroy;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 25.2px */
+}
+.footerContactUsAdress{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+.footerContactUsAdressText{
+    width: 280px;
+    color: var(--gray, #808080);
+
+    /* Desktop & Tablet/Caption */
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 16.8px */
+}
+.footerContactAdressLocation{
+    align-self: stretch;
+    color: var(--black, #121212);
+
+    /* Desktop & Tablet/Link */
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 19.2px */
+    letter-spacing: 0.4px;
+}
+.footerContactUsPhone{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+.footerContactUsPhoneText{
+    width: 280px;
+    color: var(--gray, #808080);
+
+    /* Desktop & Tablet/Caption */
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 16.8px */
+}
+.footerContactUsPhoneAdress{
+    align-self: stretch;
+    color: var(--black, #121212);
+
+    /* Desktop & Tablet/Link */
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 19.2px */
+    letter-spacing: 0.4px;
+}
+.footerContactUsMail{
+    width: 280px;
+    color: var(--gray, #808080);
+
+    /* Desktop & Tablet/Caption */
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 16.8px */
+}
+.footerContactUsMailAdress{
+    width: 280px;
+    color: var(--black, #121212);
+
+    /* Desktop & Tablet/Link */
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 19.2px */
+    letter-spacing: 0.4px;
+}
+.footerContactUsSocials{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+.footerContactUsFollowText{
+    width: 280px;
+    color: var(--gray, #808080);
+
+    /* Desktop & Tablet/H5 */
+    font-family: Gilroy;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 25.2px */
+}
+.footerContactUsConnects{
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+}
+.footerContactUsConnects>img{
+    width: 24px;
+    height: 24px;
+}
+.footerShop{
+    display: flex;
+    min-width: 320px;
+    padding: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0;
+    border-left: 1px solid var(--black, #121212);
+    background: var(--white, #FFF);
+}
+.footerShopH1{
+    align-self: stretch;
+    color: var(--gray, #808080);
+
+    /* Desktop & Tablet/H5 */
+    font-family: Gilroy;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 25.2px */
+}
+.footerShopCategoryList{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+.footerShopCategoryList>span{
+    width: 280px;
+    color: var(--black, #121212);
+
+    /* Desktop & Tablet/Link */
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 19.2px */
+    letter-spacing: 0.4px;
+}
+.footerShopServices{
+    width: 280px;
+    color: var(--black, #121212);
+
+    /* Desktop & Tablet/Link */
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 19.2px */
+    letter-spacing: 0.4px;
+}
+.footerAboutUs{
+    display: flex;
+    min-width: 320px;
+    min-height: 429px;
+    max-height: 450px;
+    padding: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0;
+    border-left: 1px solid var(--black, #121212);
+    background: var(--white, #FFF);
+    }
+    .footerAboutUsHeading1{
+        align-self: stretch;
+        color: var(--gray, #808080);
+
+    /* Desktop & Tablet/H5 */
+    font-family: Gilroy;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 25.2px */
+    }
+    .footerAboutUsBlog{
+        display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    }
+    .footerAboutUsBlog>span{
+        width: 280px;
+        color: var(--black, #121212);
+
+    /* Desktop & Tablet/Link */
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 19.2px */
+    letter-spacing: 0.4px;
+    }
+    .footerAboutUsShipping{
+        display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    }
+    .footerAboutUsShipping>span{
+        width: 280px;
+        color: var(--black, #121212);
+
+    /* Desktop & Tablet/Link */
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 19.2px */
+    letter-spacing: 0.4px;
+    }
+    .footerReminderText{
+        align-self: stretch;
+        color: var(--black, #121212);
+
+    /* Desktop & Tablet/Body */
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    }
+    .footerEmailArea{
+        display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    }
+    .footerEmailArea>input{
+        display: flex;
+        width: 385px;
+        height: 56px;
+    }
+    .footerRemindBtn{
+        display: flex;
+        height: 56px;
+        padding: 16px 24px 14px 24px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        align-self: stretch;
+        background: var(--black, #121212);
+        color: var(--white, #FFF);
+
+    /* Desktop & Tablet/Button */
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 19.2px */
+    letter-spacing: 0.48px;
+    text-transform: uppercase;
+        }

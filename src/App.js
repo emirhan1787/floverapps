@@ -2,10 +2,18 @@ import './App.css';
 import NavBar from './Components/NavBar';
 import HomePage from './Components/HomePage';
 
+import {
+  BrowserRouter as Router,
+  Route,
+  Link
+} from 'react-router-dom'
+import CategoryPage from './Components/Page2/CategoryPage';
+
 function App() {
   return (
     <div className="App">
-      <HomePage/>
+      {/* <HomePage/> */}
+      <CategoryPage/>
     </div>
   );
 }

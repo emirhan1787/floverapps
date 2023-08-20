@@ -1,10 +1,10 @@
-.mainDiv{
+.chooseUsMainDiv{
     display: flex;
     align-items: flex-start;
     width: auto;
     height: auto;
 }
-.titleDiv{
+.chooseUsTitleDiv{
     display: flex;
     width: 720px;
     padding: 80px;
@@ -14,7 +14,7 @@
     gap: 16px;
     border-top: 1px solid var(--black, #121212);
 }
-.h1{
+.chooseUsH1{
     color: var(--black, #121212);
 
     /* Desktop & Tablet/H2 */
@@ -24,12 +24,12 @@
     font-weight: 600;
     line-height: 120%; /* 60px */
 }
-.rightColumn{
+.chooseUsRightColumn{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
-.descDiv{
+.chooseUsDescDiv{
     display: flex;
     width: 720px;
     padding: 80px;
@@ -40,7 +40,7 @@
     border-left: 1px solid var(--black, #121212);
     
 }
-.h2{
+.chooseUsH2{
     align-self: stretch;
     color: var(--black, #121212);
 
@@ -51,7 +51,7 @@
     font-weight: 500;
     line-height: 120%; /* 45.6px */
 }
-.text{
+.chooseUsText{
     align-self: stretch;
     color: var(--black-brightness-90, rgba(18, 18, 18, 0.90));
 

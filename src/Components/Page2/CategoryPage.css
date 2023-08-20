@@ -1,0 +1,13 @@
+.indexBody{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.indexMainSection{
+    display: flex;
+    align-items: flex-start;
+}
+.indexMainSectionRight{
+    display: flex;
+    align-items: flex-start;
+}
