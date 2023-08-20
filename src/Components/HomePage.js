@@ -11,6 +11,7 @@ import Footer from '../Footer/Footer';
 
 export default function HomePage() {
     return (
+        <>
         <div className='mainSection'>
             <NavBar />
             <div className='topSection'>
@@ -67,6 +68,7 @@ export default function HomePage() {
         <div className='ourService'>
             <OurService/>
         </div>
-    </div>
+   
+    </>
   )
 }
