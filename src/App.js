@@ -1,20 +1,30 @@
+import React from 'react';
+import CategoryPage from './Components/Page2/CategoryPage';
+import HomePage from './Components/HomePage';
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
 import './App.css';
 
-import HomePage from './Components/HomePage';
-
-import {
-  BrowserRouter as Router,
-  Route,
-  Link
-} from 'react-router-dom'
-import CategoryPage from './Components/Page2/CategoryPage';
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <HomePage />,
+    errorElement: <h1>Page not found!!!</h1>
+  },
+  {
+    path: "/category",
+    element: <CategoryPage />,
+    errorElement: <h1>Page not found!!!</h1>
+  },
+]);
 
 function App() {
   return (
-    <div className="App">
-      {/* <HomePage/> */}
-      <CategoryPage/>
-    </div>
+    <React.StrictMode>
+      <RouterProvider router={router} />
+    </React.StrictMode>
   );
 }
 
